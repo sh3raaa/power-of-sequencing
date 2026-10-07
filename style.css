@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 40px;
+    background-color: rgb(251, 225, 191);
 }
 .sequence {
     display: flex;
@@ -9,11 +10,9 @@ body {
     gap: 10px;
     margin: 30px 0;
 }
-.image-box {
+.sequence img {
     width: 400px;
     height: 250px;
+    object-fit: cover;
     border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
